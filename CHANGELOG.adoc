@@ -1,0 +1,5 @@
+= Patacrep Docker Image Changelog
+
+== 1.0.0 (2019-06-16)
+* Docker image and shell script to build patacrep songbook
+

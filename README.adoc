@@ -1,0 +1,14 @@
+= Patacrep Docker Image
+
+Build a https://github.com/patacrep/patacrep[patacrep] songbook using docker.
+
+== Usage
+
+----
+./patacrep.sh <book-file.yaml>
+----
+
+== Details
+The script mounts the working directory (`$PWD`) into the docker container.
+The `<book-file.yaml>` is relative to `$PWD`.
+The result is written to `$PWD`.
