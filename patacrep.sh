@@ -3,4 +3,4 @@
 # Example: ./patacrep.sh books/songbook_en.yaml
 
 set -x
-docker run -v $PWD:/pwd -w /pwd ftes/patacrep songbook /pwd/$1
+docker run --rm -v $PWD:/pwd -w /pwd ftes/patacrep songbook /pwd/$1
